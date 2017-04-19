@@ -1,1 +1,4 @@
-# multiprograma-o
+                                               Multiprogramação
+ 
+ 
+ Multiprogramação faz com que a CPU fique com vários programas simultaneamente ativos na memória (consiste em dividir a memória em N partições fixas de tamanhos variados) e permite que um programa seja executado enquanto outro espera por E/S. Ela faz a CPU suportar a execução de múltiplos programas independentes. Na visão do SO, a multiprogramação tem a vantagem de melhorar o rendimento de utilização da CPU e dos periféricos. Na visão do usuário tem a vantagem de permitir que ele explore tarefas concorrentes, por exemplo, editar e compilar, concorrentemente com a impressão de um ficheiro. Outra vantagem é a de permitir múltiplos utilizadores concorrentes que, partilhando o tempo do CPU, obtêm assim uma ilusão de que cada um tem um computador dedicado, quando, na verdade o que se tem é o controle, pelo SO, de quais os momentos serão para alternar de um processo para outro. E isto é utilizado no SO Windows e na maioria dos SO’s.
